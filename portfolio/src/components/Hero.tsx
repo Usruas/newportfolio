@@ -54,7 +54,7 @@ export default function Hero() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] overflow-hidden rotate-3 border-4 border-primary/20 shadow-2xl transition-transform hover:rotate-0 duration-500 bg-surface-variant">
               <img 
-                src="portfolio/ashish.png"
+                src="/assets/ashish.png"
                 alt="Professional headshot"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
