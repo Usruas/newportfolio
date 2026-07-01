@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Terminal, Link as LinkIcon, Share2, Code } from 'lucide-react';
 import HireMeModal from './HireMeModal';
 import ContactModal from './ContactModal';
+import ashish from "../assets/ashish.png";
 
 export default function Hero() {
   const [isHireModalOpen, setIsHireModalOpen] = useState(false);
@@ -53,10 +54,11 @@ export default function Hero() {
             className="flex justify-center relative"
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] overflow-hidden rotate-3 border-4 border-primary/20 shadow-2xl transition-transform hover:rotate-0 duration-500 bg-surface-variant">
-               import ashish from "../assets/ashish.png";
-
-               export default function Hero() {
-               return <img src={ashish} alt="Ashish" />;
+                <img
+    src={ashish}
+    alt="Ashish"
+    className="w-full h-full object-cover"
+  />
             }
             </div>
             <div className="absolute -bottom-4 -right-4 bg-primary-container p-md rounded-2xl shadow-xl animate-bounce hidden md:block">
