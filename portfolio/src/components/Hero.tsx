@@ -53,12 +53,11 @@ export default function Hero() {
             className="flex justify-center relative"
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] overflow-hidden rotate-3 border-4 border-primary/20 shadow-2xl transition-transform hover:rotate-0 duration-500 bg-surface-variant">
-              <img 
-                src="/assets/ashish.png"
-                alt="Professional headshot"
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+               import ashish from "../assets/ashish.png";
+
+               export default function Hero() {
+               return <img src={ashish} alt="Ashish" />;
+            }
             </div>
             <div className="absolute -bottom-4 -right-4 bg-primary-container p-md rounded-2xl shadow-xl animate-bounce hidden md:block">
               <Code className="text-on-primary-container" size={28} />
