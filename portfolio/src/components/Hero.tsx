@@ -54,7 +54,7 @@ export default function Hero() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] overflow-hidden rotate-3 border-4 border-primary/20 shadow-2xl transition-transform hover:rotate-0 duration-500 bg-surface-variant">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwLqDN-Si-51bZwkpz8bANgLy8a291UeLXBePhrJPnJCZfeDfyaXk7PhoSHeCP35yVh553Z2Lawu1EvcOWn0L9PIFicHZC_a8M60uT84HRcd-1EYJUNfRa79DROQpcaWsRBSEcyryS9nVpfL3_ziNZRk7tHNgiLNG9_mMqkUmv-CKdjvZWW_lRsh0XKABqrTRfn8dtZAr_dud3s2ith3Xu94zYJH0Ta5CuYCJt-mZ1aUK1_E23otiFRNAW2yK1r-QkCXasrurh0g"
+                src="/ashish.png"
                 alt="Professional headshot"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
